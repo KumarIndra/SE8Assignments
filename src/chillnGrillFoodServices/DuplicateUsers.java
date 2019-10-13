@@ -1,13 +1,12 @@
-package samples;
-
+package chillnGrillFoodServices;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-class playground {
 
+public class DuplicateUsers {
 	public static void main(String[] args) {
 		List<User> userList = new ArrayList<User>();
 		userList.add(new User("Max", "fgc123", "max@infy.com"));
@@ -23,7 +22,6 @@ class playground {
 			System.out.println(user);
 	}
 }
-
 class User {
 	String username;
 	String password;
